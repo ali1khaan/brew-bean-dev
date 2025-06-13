@@ -8,7 +8,7 @@ import { MdLocalOffer, MdNewReleases } from 'react-icons/md';
 import { GiCupcake } from 'react-icons/gi';
 import type { GetServerSideProps, GetServerSidePropsContext } from 'next';
 
-export const getServerSideProps: GetServerSideProps = async (context: GetServerSidePropsContext) => {
+export const getServerSideProps: GetServerSideProps = async (_context: GetServerSidePropsContext) => {
   const baseUrl = process.env.VERCEL_URL
     ? `https://${process.env.VERCEL_URL}`
     : 'http://localhost:3000';
