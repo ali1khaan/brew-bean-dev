@@ -6,7 +6,8 @@ import { useOrder } from '@/context/OrderContext';
 import { FaCoffee, FaLeaf, FaFireAlt, FaClock } from 'react-icons/fa';
 import { MdLocalOffer, MdNewReleases } from 'react-icons/md';
 import { GiCupcake } from 'react-icons/gi';
-import type { GetServerSideProps, GetServerSidePropsContext } from 'next';
+import type { GetServerSideProps } from 'next';
+
 
 export const getServerSideProps: GetServerSideProps = async () => {
   const baseUrl = process.env.VERCEL_URL
