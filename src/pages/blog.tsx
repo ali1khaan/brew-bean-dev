@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import styles from './Blog.module.css';
+import styles from '@/styles/blog.module.scss';
 import Image from 'next/image';
 import { FaCoffee, FaCalendarAlt, FaTag } from 'react-icons/fa';
 

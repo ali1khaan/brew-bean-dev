@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import Layout from '../components/Layout';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import styles from './About.module.css';
+import styles from '@/styles/about.module.scss';
 import Link from 'next/link'; 
 
 const stats = [

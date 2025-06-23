@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from './Hero.module.css';
+import styles from '@/styles/hero.module.scss';
 
 export default function Hero() {
   const [animate, setAnimate] = useState(false);

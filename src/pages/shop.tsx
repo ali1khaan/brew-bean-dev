@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import styles from './Shop.module.css';
+import styles from '@/styles/shop.module.scss';
 import Image from 'next/image';
 import { FaShoppingCart, FaMugHot } from 'react-icons/fa';
 

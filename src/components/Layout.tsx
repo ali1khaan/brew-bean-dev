@@ -1,8 +1,7 @@
-// src/components/Layout.tsx
 import React, { ReactNode } from 'react';
 import Navbar from './Navbar';
-import Footer from './Footer'; // ✅ imported
-import styles from './Layout.module.css';
+import Footer from './Footer';
+import styles from '@/styles/layout.module.scss';
 
 type LayoutProps = {
   children: ReactNode;

@@ -1,44 +1,27 @@
-@use './variables';
+// src/styles/main.scss
 
-html {
-  scroll-behavior: smooth;
-  font-size: var(--fs-base);
-  background: var(--clr-bg);
-  color: var(--clr-fg);
-  font-family: var(--ff-body);
-}
+// Variables
+@import 'variables';
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--clr-bg);
-  color: var(--clr-fg);
-  line-height: 1.6;
-}
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
-button {
-  font-family: inherit;
-  cursor: pointer;
-  background: none;
-  border: none;
-}
-
-/* ✅ Example Nesting */
-.container {
-  max-width: 1200px;
-  margin-inline: auto;
-  padding-inline: var(--space-sm);
-
-  &.shadow {
-    box-shadow: var(--shadow-md);
-  }
-
-  &.radius {
-    border-radius: var(--radius-md);
-  }
-}
+// Components & modules
+@import '404.module';
+@import 'about-us.module';
+@import 'about.module';
+@import 'back-to-top-button.module';
+@import 'blog.module';
+@import 'cart-sidebar.module';
+@import 'cart.module';
+@import 'contact.module';
+@import 'cta-banner.module';
+@import 'featured-menu.module';
+@import 'footer.module';
+@import 'hero.module';
+@import 'home.module';
+@import 'layout.module';
+@import 'menu.module';
+@import 'navbar.module';
+@import 'shop.module';
+@import 'testimonials.module';
+@import 'location-hours.module';

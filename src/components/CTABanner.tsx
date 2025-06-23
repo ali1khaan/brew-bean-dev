@@ -1,4 +1,4 @@
-import styles from './CTABanner.module.css';
+import styles from '@/styles/cta-banner.module.scss';
 import Link from 'next/link';
 
 export default function CTABanner() {

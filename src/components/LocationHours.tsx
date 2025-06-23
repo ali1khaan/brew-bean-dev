@@ -1,4 +1,4 @@
-import styles from './LocationHours.module.css';
+import styles from '@/styles/location-hours.module.scss';
 
 export default function LocationHours() {
   return (

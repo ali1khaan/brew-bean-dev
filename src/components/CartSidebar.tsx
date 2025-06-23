@@ -1,6 +1,5 @@
-// src/components/CartSidebar.tsx
 import React from "react";
-import styles from "./CartSidebar.module.css";
+import styles from "@/styles/cart-sidebar.module.scss";
 import { FaTimes, FaShoppingCart } from "react-icons/fa";
 import { useOrder } from "@/context/OrderContext";
 

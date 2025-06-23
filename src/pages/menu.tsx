@@ -1,7 +1,7 @@
 // src/pages/menu.tsx
 import React from 'react';
 import Layout from '../components/Layout';
-import styles from './Menu.module.css';
+import styles from '@/styles/menu.module.scss';
 import { useOrder } from '@/context/OrderContext';
 import { FaCoffee, FaLeaf, FaFireAlt, FaClock } from 'react-icons/fa';
 import { MdLocalOffer, MdNewReleases } from 'react-icons/md';

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import styles from './AboutUs.module.css';
+import styles from '@/styles/about-us.module.scss';
 import Image from 'next/image';
 
 export default function AboutUs() {

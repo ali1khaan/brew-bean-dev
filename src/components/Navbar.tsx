@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import styles from "./Navbar.module.css";
+import styles from "@/styles/navbar.module.scss";
 import { FaShoppingCart } from "react-icons/fa";
 import { useOrder } from "@/context/OrderContext"; 
 import CartSidebar from "./CartSidebar"; 

@@ -1,4 +1,4 @@
-import styles from './FeaturedMenu.module.css';
+import styles from '@/styles/featured-menu.module.scss';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 

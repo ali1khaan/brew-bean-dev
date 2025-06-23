@@ -1,4 +1,4 @@
-import styles from './Cart.module.css';
+import styles from '@/styles/cart.module.scss';
 import { useOrder } from '@/context/OrderContext';
 import Image from 'next/image';
 
