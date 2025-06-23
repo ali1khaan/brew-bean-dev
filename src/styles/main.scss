@@ -1,0 +1,44 @@
+@use './variables';
+
+html {
+  scroll-behavior: smooth;
+  font-size: var(--fs-base);
+  background: var(--clr-bg);
+  color: var(--clr-fg);
+  font-family: var(--ff-body);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--clr-bg);
+  color: var(--clr-fg);
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* ✅ Example Nesting */
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: var(--space-sm);
+
+  &.shadow {
+    box-shadow: var(--shadow-md);
+  }
+
+  &.radius {
+    border-radius: var(--radius-md);
+  }
+}
